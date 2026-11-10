@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrpción</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/inscripcion.php" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend><h2>Inscrpción a Evento Tech </h2></legend>
+
+            <label for="equipo"><b>Nombre de Equipo:</b> </label>
+            <input type="text" name="equipo" autofocus/>
+            <br/><br/>
+
+            <label for="codigo_registro"><b>Código de Registro: </b></label>
+            <input type="text" name="codigo_registro" value="HACK-2026-SEV" readonly/>
+            <br/><br/>
+
+            <label for="fecha"><b>Fecha de llegada: </b></label>
+            <input type="date" name="fecha" min="2026-12-01" max="2026-12-15"/>
+            <br/><br/>
+
+            <label for="hora"><b>Hora de presentación: </b></label>
+            <input type="time" name="hora" />
+            <br/><br/>
+
+            <label for="color"><b>Color identificativo del equipo: </b></label>
+            <input type="color" name="color" />
+            <br/><br/>
+
+            <label for="nivel_java"><b>Nivel estimado de Java: </b></label>
+            <input type="range" name="nivel_java" min="0" max="100"/>
+            <br/><br/>
+
+            <label for="expendiente"><b>Subir Expendiente / CV: </b></label>
+            <input type="file" name="expendiente" accept=".pdf" />
+            <br/><br/>
+
+        </fieldset>
+
+        <button type="submit">Enviar datos</button>
+
+    </form>
+</body>
+</html>
+
