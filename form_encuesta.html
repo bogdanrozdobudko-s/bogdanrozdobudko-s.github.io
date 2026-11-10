@@ -9,7 +9,7 @@
 
     <h1>Encuesta sobre el Perfil Técnico de los Estudiantes</h1>
 
-    <form action="https://lm.ciclo.iesnervion.es/login.php" method="POST">
+    <form action="https://lm.ciclo.iesnervion.es/encuesta.php" method="POST">
         <fieldset>
 
             <legend><h3>Datos Académicos</h3></legend>
@@ -47,13 +47,13 @@
 
             <p><b>Entornos de trabajo habituales: </b></p>
 
-            <input type="checkbox" name="entornos" value="linux">
+            <input type="checkbox" name="entornos[]" value="Linux">
             <label for="entornos">Linux</label>
 
-            <input type="checkbox" name="entornos" value="windows">
+            <input type="checkbox" name="entornos[]" value="Windows">
             <label for="entornos">Windows</label>
 
-            <input type="checkbox" name="entornos" value="macos">
+            <input type="checkbox" name="entornos[]" value="macOS">
             <label for="entornos">macOS</label>
 
             <br><br>
