@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba de HTML5</title>
+</head>
+<body>
+    <form action="https://lm.ciclo.iesnervion.es/registroweb.php" method="GET">
+        <fieldset>
+
+            <legend><h3>Formulario de prueba de HTML5</h3></legend>
+
+            <label for="nombre"><b>Nombre y Apellido(s): </b></label>
+            <input type="text" id="nombre" name="nombre"
+                   placeholder="Tu nombre" autofocus required>
+
+            <br><br>
+
+            <label for="email"><b>Correo electrónico: </b></label>
+            <input type="email" id="email" name="email"
+                   placeholder="usuario@email.com" required>
+
+            <br><br>
+
+            <label for="url"><b>URL: </b></label>
+            <input type="url" id="url" name="url"
+                   placeholder="Escribe la URL de tu página web personal">
+
+            <br><br>
+
+            <label for="fecha"><b>Fecha: </b></label>
+            <input type="date" id="fecha" name="fecha">
+
+            <br><br>
+
+            <label for="tiempo"><b>Tiempo: </b></label>
+            <input type="time" id="tiempo" name="tiempo">
+
+            <br><br>
+
+            <label for="fechahora"><b>Fecha y hora: </b></label>
+            <input type="datetime-local" id="fechahora" name="fechahora">
+
+            <br><br>
+
+            <label for="mes"><b>Mes: </b></label>
+            <input type="month" id="mes" name="mes">
+
+            <br><br>
+
+            <label for="semana"><b>Semana: </b></label>
+            <input type="week" id="semana" name="semana">
+
+            <br><br>
+
+            <label for="numero"><b>Número: </b></label>
+            <input type="number" id="numero" name="numero"
+                   min="-10" max="10">
+
+            <br><br>
+
+            <label for="telefono"><b>Teléfono: </b></label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <br><br>
+
+            <label for="busqueda"><b>Término de búsqueda: </b></label>
+            <input type="search" id="busqueda" name="busqueda">
+
+            <br><br>
+
+            <label for="color"><b>Color favorito: </b></label>
+            <input type="color" id="color" name="color">
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Enviar datos</button>
+
+    </form>
+</body>
+</html>
+
